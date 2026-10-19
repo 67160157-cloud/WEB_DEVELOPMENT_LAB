@@ -1,7 +1,7 @@
 # 🌐 Web Development Lab: GitHub Actions + GitHub Pages
 
-[![Deploy Static Website](https://github.com/suriyen-creator/webdev-actions-lab/actions/workflows/deploy.yml/badge.svg)](https://github.com/suriyen-creator/webdev-actions-lab/actions/workflows/deploy.yml)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen?logo=github)](https://suriyen-creator.github.io/webdev-actions-lab/)
+[![Deploy Static Website](https://github.com/67160157-cloud/WEB_DEVELOPMENT_LAB/actions/workflows/deploy.yml/badge.svg)](https://github.com/67160157-cloud/WEB_DEVELOPMENT_LAB/actions/workflows/deploy.yml)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen?logo=github)](https://67160157-cloud.github.io/WEB_DEVELOPMENT_LAB/)
 
 > โครงงานห้องปฏิบัติการวิชา Web Development: การผสานรวมระบบอัตโนมัติ **CI/CD (Continuous Integration / Continuous Deployment)** ด้วย **GitHub Actions** และการเผยแพร่เว็บไซต์แบบ Static ผ่าน **GitHub Pages**
 
@@ -11,10 +11,10 @@
 
 - **ชื่อ-นามสกุล:** นายสุริเยนทร์ กงทิพย์ (Mr. Suriyen Kongthip)
 - **รหัสนิสิต:** `67160157`
-- **GitHub Username:** [@suriyen-creator](https://github.com/suriyen-creator)
+- **GitHub Username:** [@67160157-cloud](https://github.com/67160157-cloud)
 - **อีเมล:** [suriyen3469@gmail.com](mailto:suriyen3469@gmail.com)
-- **Repository URL:** [https://github.com/suriyen-creator/webdev-actions-lab](https://github.com/suriyen-creator/webdev-actions-lab)
-- **GitHub Pages Live URL:** [https://suriyen-creator.github.io/webdev-actions-lab/](https://suriyen-creator.github.io/webdev-actions-lab/)
+- **Repository URL:** [https://github.com/67160157-cloud/WEB_DEVELOPMENT_LAB](https://github.com/67160157-cloud/WEB_DEVELOPMENT_LAB)
+- **GitHub Pages Live URL:** [https://67160157-cloud.github.io/WEB_DEVELOPMENT_LAB/](https://67160157-cloud.github.io/WEB_DEVELOPMENT_LAB/)
 
 ---
 
@@ -24,9 +24,9 @@
 [ Local Development ] 
         │
         ▼ (git commit & git push origin main)
-[ GitHub Repository (main branch) ]
+[ GitHub Repository: 67160157-cloud/WEB_DEVELOPMENT_LAB ]
         │
-        ▼ (Trigger on: push)
+        ▼ (Trigger on: push to main)
 [ GitHub Actions Runner (ubuntu-latest) ]
         ├── 1. Checkout source code (actions/checkout@v6)
         ├── 2. Verify index.html exists (Lab Challenge: test -f index.html)
@@ -35,7 +35,7 @@
         └── 5. Deploy to GitHub Pages (actions/deploy-pages@v4)
         │
         ▼
-[ GitHub Pages Live Website ] 🌟 (https://suriyen-creator.github.io/webdev-actions-lab/)
+[ GitHub Pages Live Website ] 🌟 (https://67160157-cloud.github.io/WEB_DEVELOPMENT_LAB/)
 ```
 
 ---
@@ -43,7 +43,7 @@
 ## 📂 โครงสร้างโปรเจกต์ (Project Structure)
 
 ```text
-webdev-actions-lab/
+WEB_DEVELOPMENT_LAB/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml      # CI/CD Deployment Workflow

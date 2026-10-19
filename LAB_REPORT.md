@@ -6,10 +6,10 @@
 ### 👤 ข้อมูลผู้จัดทำ (Student Information)
 - **ชื่อ-นามสกุล:** นายสุริเยนทร์ กงทิพย์
 - **รหัสนิสิต:** `67160157`
-- **GitHub Username:** `suriyen-creator`
+- **GitHub Username:** `67160157-cloud`
 - **อีเมล:** `suriyen3469@gmail.com`
-- **(ก) GitHub Repository URL:** [https://github.com/suriyen-creator/webdev-actions-lab](https://github.com/suriyen-creator/webdev-actions-lab)
-- **(ข) GitHub Pages URL:** [https://suriyen-creator.github.io/webdev-actions-lab/](https://suriyen-creator.github.io/webdev-actions-lab/)
+- **(ก) GitHub Repository URL:** [https://github.com/67160157-cloud/WEB_DEVELOPMENT_LAB](https://github.com/67160157-cloud/WEB_DEVELOPMENT_LAB)
+- **(ข) GitHub Pages URL:** [https://67160157-cloud.github.io/WEB_DEVELOPMENT_LAB/](https://67160157-cloud.github.io/WEB_DEVELOPMENT_LAB/)
 
 ---
 
@@ -100,22 +100,19 @@ Job `deploy` มีลำดับการทำงาน (Steps) ทั้ง�
 
 สำหรับนิสิตในการนำโค้ดขึ้น GitHub และเปิดใช้งาน GitHub Pages:
 
-### 1. สร้าง Repository บน GitHub
-1. เข้าไปที่ [https://github.com/new](https://github.com/new)
-2. ตั้งชื่อ Repository: `webdev-actions-lab`
-3. เลือกการตั้งค่าเป็น **Public**
-4. กดปุ่ม **Create repository**
+### 1. เชื่อมต่อไปยัง Repository บน GitHub
+Repository URL: [https://github.com/67160157-cloud/WEB_DEVELOPMENT_LAB](https://github.com/67160157-cloud/WEB_DEVELOPMENT_LAB)
 
 ### 2. นำโค้ดขึ้นสู่ GitHub (Push to Remote)
 เปิด Terminal ในโฟลเดอร์นี้ แล้วรันคำสั่ง:
 ```bash
-git remote add origin https://github.com/suriyen-creator/webdev-actions-lab.git
+git remote add origin https://github.com/67160157-cloud/WEB_DEVELOPMENT_LAB.git
 git branch -M main
 git push -u origin main
 ```
 
 ### 3. เปิดใช้งาน GitHub Pages
-1. ไปที่หน้า GitHub Repository: `webdev-actions-lab`
+1. ไปที่หน้า GitHub Repository: `WEB_DEVELOPMENT_LAB`
 2. คลิกเมนู **Settings** ➔ เลือกแถบ **Pages** ทางซ้ายมือ
 3. ภายใต้หัวข้อ **Build and deployment** ในช่อง **Source** ให้เลือกเป็น **GitHub Actions**
 4. บันทึกการตั้งค่า ระบบจะตรวจจับ workflow ใน `.github/workflows/deploy.yml` อัตโนมัติ
@@ -124,7 +121,7 @@ git push -u origin main
 1. คลิกแท็บ **Actions** ด้านบนของ Repository
 2. จะเห็น Workflow ชื่อ **"Deploy Static Website"** มีเครื่องหมายถูกสีเขียว ✅
 3. เมื่อ Deploy เสร็จสิ้น สามารถเข้าชมเว็บไซต์ได้ที่:
-   👉 **https://suriyen-creator.github.io/webdev-actions-lab/**
+   👉 **https://67160157-cloud.github.io/WEB_DEVELOPMENT_LAB/**
 
 ---
 
